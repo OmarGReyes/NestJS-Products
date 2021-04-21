@@ -1,0 +1,19 @@
+###
+GET http://localhost:3000/tasks
+
+###
+GET http://localhost:3000/tasks/3
+
+###
+POST http://localhost:3000/producto/create
+Content-Type: application/json
+
+{
+    "name":"tablet",
+    "description":"hplaptop",
+    "imgURL": "facebook.com",
+    "price": 40000
+}
+
+###
+POST http://localhost:3000/producto/create
